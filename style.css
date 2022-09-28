@@ -1,0 +1,30 @@
+body
+{
+  margin: 0px auto;
+  padding: 0px;
+  text-align: center;
+  width: 100%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #16324F;
+}
+
+#navbar
+{
+  width:100%;
+  margin:0px auto;
+  padding:0px;
+  text-align:center;
+  height:70px;
+  line-height:70px;
+  background-color: #13293D;
+}
+
+#navbar li
+{
+  display:inline-block;
+  margin-right:25px;
+  font-size:17px;
+  color:#3E92CC;
+  font-weight:bold;
+  cursor:pointer;
+}
