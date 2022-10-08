@@ -1,52 +1,90 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>20wontons Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script type="text/javascript" src="jquery.js"></script>
-        <script type="text/javascript">
-        function scrollto(div)
+
+<head>
+  <title>20wontons Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript">
+    function scrollto(div) {
+      $('html,body').animate(
         {
-        $('html,body').animate(
-        {
-        scrollTop: $("#"+div).offset().top
-        },'slow');
-        }
-        </script>
-    </head>
-    <body>
-        
-        <div>
-            <h1>Antoine Nguyen</h1>
-        </div>
-        <div id="navbar">
-            <li onclick="scrollto('about');">ABOUT</li>
-            <li onclick="scrollto('projects');">PROJECTS</li>
-        </div>
-        <div id="about">
-            <h2>About Me</h2>
-            <p>I'm Antoine Nguyen!<br>I also go by the screen name 20wontons.</p>
-            <ul>
-                <li><a href="https://www.github.com/20wontons/">Github</a></li>
-                <li><a href="https://www.linkedin.com/antoine-b-nguyen/">LinkedIn</a></li>
-                <li><a href="https://linktr.ee/20wontons">Music LinkTree</a></li>
-            </ul>
-            <h3>Distinctions</h3>
-            <ul>
-                <li>2020 APIA Scholar</li>
-                <li>2020 La Quinta HS Principal's Medallion, Aztec of the Year Nominee</li>
-            </ul>
-        </div>
-        <div id="projects">
-            <h2>Projects</h2>
-            <a href="https://www.github.com/20wontons/anfootball">anfootball</a>
-        </div>
-        <div>
-            <h2>Music</h2>
-            <div>
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2yvyqHjROMM5DFxi5N4dHB?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            </div>
-        </div>
-        
-    </body>
+          scrollTop: $("#" + div).offset().top
+        }, 'slow');
+    }
+  </script>
+</head>
+
+<body>
+
+  <div>
+    <h1>Antoine Nguyen</h1>
+  </div>
+  <div id="navbar">
+    <li onclick="scrollto('about');">ABOUT</li>
+    <li onclick="scrollto('projects');">PROJECTS</li>
+    <li onclick="scrollto('music');">MUSIC</li>
+  </div>
+  <div id="about">
+    <h2>About Me</h2>
+    <p>I'm Antoine Nguyen!<br>I also go by the screen name 20wontons.</p>
+    <h3>Connect!</h3>
+    <ul>
+      <li><a href="https://www.github.com/20wontons/">Github</a></li>
+      <li><a href="https://www.linkedin.com/antoine-b-nguyen/">LinkedIn</a></li>
+      <li><a href="https://linktr.ee/20wontons">Music LinkTree</a></li>
+    </ul>
+  </div>
+  <hr/>
+  <div id="projects">
+    <h2>Projects</h2>
+    <div>
+      <a href="https://www.github.com/20wontons/anfootball"><img src="src/images/anfootball-icon.png" width="100px"/></a><br/>
+      <a href="https://www.github.com/20wontons/anfootball">anfootball</a>
+    </div>
+    
+    <h3>What I Use</h3>
+    <ul>
+      <li>Python3</li>
+      <li>Kotlin</li>
+      <li>C++</li>
+      <li>HTML5</li>
+      <li>CSS</li>
+      <li>VSCode</li>
+      <li>Replit</li>
+      <li>Git</li>
+    </ul>
+  </div>
+  <div id="music">
+    <h2>Music</h2>
+    <div>
+      <h3>Solo Projects</h3>
+      <iframe style="border-radius:12px"
+        src="https://open.spotify.com/embed/artist/2yvyqHjROMM5DFxi5N4dHB?utm_source=generator" width="560" height="315"
+        frameBorder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+    <div>
+      <h3>The Band</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/8CX3Ew4Y524" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <h3>What I Use</h3>
+    <ul>
+      <li>Cakewalk</li>
+      <li>Audacity</li>
+      <li>Yamaha MX 12/6</li>
+      <li>BOSS GT-1</li>
+    </ul>
+    <h3>Check out the music!</h3>
+    <ul>
+      <li>Spotify</li>
+      <li>Bandcamp</li>
+      <li>YouTube</li>
+      <li>Soundcloud</li>
+      <li>Bandlab</li>
+    </ul>
+  </div>
+
+</body>
+
 </html>

@@ -28,3 +28,9 @@ body
   font-weight:bold;
   cursor:pointer;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
