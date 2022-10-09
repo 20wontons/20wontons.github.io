@@ -29,8 +29,19 @@ body
   cursor:pointer;
 }
 
-ul {
+ul 
+{
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.web-icons li
+{
+  display:inline-block;
+}
+
+.web-icons img 
+{
+  width: 70px;
 }
