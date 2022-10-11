@@ -22,7 +22,8 @@ body
 #navbar li
 {
   display:inline-block;
-  margin-right:25px;
+  margin-right:10px;
+  margin-left:10px;
   font-size:17px;
   color:#3E92CC;
   font-weight:bold;
@@ -39,9 +40,12 @@ ul
 .web-icons li
 {
   display:inline-block;
+  margin-right:10px;
+  margin-left:10px;
 }
 
 .web-icons img 
 {
   width: 70px;
 }
+
