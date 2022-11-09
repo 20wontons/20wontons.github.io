@@ -9,17 +9,21 @@ https://www.flaticon.com/packs/logotypes
 <html>
 
 <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  
   <title>20wontons Portfolio</title>
+  
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script type="text/javascript" src="jquery.js"></script>
+  
+<!--   <script type="text/javascript" src="jquery.js"></script>
   <script type="text/javascript">
-    function scrollto(div) {
+    function scrollto(section) {
       $('html,body').animate(
         {
-          scrollTop: $("#" + div).offset().top
+          scrollTop: $("#" + section).offset().top
         }, 'slow');
     }
-  </script>
+  </script> -->
 </head>
 
 <body>
@@ -27,12 +31,17 @@ https://www.flaticon.com/packs/logotypes
   <div>
     <h1>Antoine Nguyen</h1>
   </div>
-  <div id="navbar">
-    <li onclick="scrollto('about');">ABOUT</li>
-    <li onclick="scrollto('projects');">PROJECTS</li>
-    <li onclick="scrollto('music');">MUSIC</li>
-  </div>
-  <div id="about">
+  <nav id="navbar">
+    <ul>
+<!--       <li onclick="scrollto('about');">ABOUT</li>
+      <li onclick="scrollto('projects');">PROJECTS</li>
+      <li onclick="scrollto('music');">MUSIC</li> -->
+      <li>ABOUT</li>
+      <li>PROJECTS</li>
+      <li>MUSIC</li>
+    </ul>
+  </nav>
+  <section id="about">
     <h2>About Me</h2>
     <p>I'm Antoine Nguyen!<br>I love programming and music.</p>
     <h3>Connect!</h3>
@@ -64,9 +73,9 @@ https://www.flaticon.com/packs/logotypes
         </a>
       </li>
     </ul>
-  </div>
+  </section>
   <hr/>
-  <div id="projects">
+  <section id="projects">
     <h2>Projects</h2>
     <div>
       <a href="https://www.github.com/20wontons/anfootball"><img src="src/images/anfootball-icon.png" width="100px"/></a><br/>
@@ -74,7 +83,7 @@ https://www.flaticon.com/packs/logotypes
     </div>
     
     <h3>What I Use</h3>
-    <ul>
+    <ul class="web-icons">
       <li>Python3</li>
       <li>Kotlin</li>
       <li>C++</li>
@@ -84,8 +93,8 @@ https://www.flaticon.com/packs/logotypes
       <li>Replit</li>
       <li>Git</li>
     </ul>
-  </div>
-  <div id="music">
+  </section>
+  <section id="music">
     <h2>Music</h2>
     <div>
       <div>
@@ -101,11 +110,13 @@ https://www.flaticon.com/packs/logotypes
       </div>
     </div>
     <h3>What I Use</h3>
-    <ul>
+    <ul class="web-icons">
       <li>Cakewalk</li>
       <li>Audacity</li>
       <li>Yamaha MX 12/6</li>
       <li>BOSS GT-1</li>
+      <li>Squier Classic Vibe '60s Telecaster Thinline</li>
+      <li>Cort GB54P Bass</li>
     </ul>
     <h3>Check out the music!</h3>
     <ul class="web-icons">
@@ -135,7 +146,7 @@ https://www.flaticon.com/packs/logotypes
         </a>
       </li>
     </ul>
-  </div>
+  </section>
 
 </body>
 
