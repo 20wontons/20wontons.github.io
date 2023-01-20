@@ -37,6 +37,14 @@ ul
   padding: 0;
 }
 
+hr
+{
+  width: 50%;
+  margin: 20px auto;
+  border: 5px solid black;
+  border-radius: 2px;
+}
+
 .web-icons li
 {
   display:inline-block;
@@ -49,3 +57,29 @@ ul
   width: 70px;
 }
 
+img
+{
+  border-radius: 25px;
+}
+
+a
+{
+  color: #16324F;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+.box-section
+{
+  margin: 10px auto;
+  width: 650px;
+  background-color: #f5f8fc;
+  border-radius: 25px;
+  color: #16324F;
+  padding: 20px;
+}
+
+.inner-box
+{
+  
+}
