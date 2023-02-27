@@ -29,7 +29,7 @@ function App() {
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.linkedin.com/antoine-b-nguyen/">
+                      <a href="https://www.linkedin.com/in/antoine-b-nguyen/">
                         <img src="https://cdn-icons-png.flaticon.com/512/4494/4494497.png" alt="LinkedIn | antoine-b-nguyen" />
                       </a>
                     </li>
