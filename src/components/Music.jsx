@@ -38,16 +38,17 @@ function Music() {
                 <Row>
                     <h3 className="mt-3">What I Use</h3>
                     <ul className="web-icons">
-                        <li>Cakewalk</li>
-                        <li>Audacity</li>
-                        <li>Yamaha MX 12/6</li>
+                        <li><a href="https://www.bandlab.com/products/cakewalk">Cakewalk</a></li>
+                        <li><a href="https://www.audacityteam.org/">Audacity</a></li>
+                        <li><a href="https://reverb.com/item/4657993-yamaha-mx12-6-12-channel-mixer">Yamaha MX 12/6</a></li>
                         <li><a href="https://www.boss.info/us/products/gt-1/">BOSS GT-1 Multi-Effects Pedal</a></li>
-                        <li>Squier Classic Vibe '60s Telecaster Thinline</li>
-                        <li>Squier Affinity Series Stratocaster</li>
-                        <li>Cort GB54P Bass</li>
+                        <li><a href="https://www.fender.com/en-US/squier-electric-guitars/telecaster/classic-vibe-60s-telecaster-thinline/0374067521.html">Squier Classic Vibe '60s Telecaster Thinline</a></li>
+                        <li><a href="https://www.fender.com/en-US/squier-electric-guitars/stratocaster/affinity-series-stratocaster/0378002506.html">Squier Affinity Series Stratocaster</a></li>
+                        <li><a href="https://www.fender.com/en-US/squier-electric-basses/other/classic-vibe-bass-vi/0374580500.html">Squier Classic Vibe Bass VI</a></li>
+                        <li><a href="https://www.cortguitars.com/product/item.php?it_id=1263">Cort GB54P Bass</a></li>
                         <li><a href="https://www.akaipro.com/mpk249">Akai Professional MPK249 49-Key MIDI Controller</a></li>
-                        <li>Shure Dynamic Microphone</li>
-                        <li>Fender Rumble 40 Bass Amp</li>
+                        <li><a href="https://www.shure.com/en-US/products/microphones/sm57">Shure SM57 Dynamic Microphone</a></li>
+                        <li><a href="https://www.fender.com/en-US/bass-amplifiers/contemporary-digital/rumble-40/2370300000.html">Fender Rumble 40 Bass Amp</a></li>
                     </ul>
                 </Row>
                 <Row>

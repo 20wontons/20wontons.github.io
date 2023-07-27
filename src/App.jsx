@@ -1,64 +1,34 @@
 import './App.scss';
 
-import { Container, Row, Col } from "react-bootstrap";
-import NavBar from './components/NavBar.jsx';
+import { useState } from 'react'
+import { Nav, Navbar, Container } from "react-bootstrap";
 import Projects from './components/Projects';
 import Music from './components/Music';
+import WelcomeCard from './components/WelcomeCard';
+
 
 function App() {
+  const [type, setType] = useState('type1')
+  const handTypeChange = (type)=>{
+      setType(type)
+  }
   return (
     <>
-      <div id="top" style={{ backgroundColor: "#eee" }}>
-        <Container>
-          <Row
-            className="justify-content-center align-items-center m-0"
-            style={{ minHeight: "100vh", backgroundColor: "#eee" }}
-          >
-            <Col>
-              <h1>Antoine Nguyen</h1>
-              <p>CSE Major | Programming, Music, Community</p>
-            </Col>
-            <Col>
-              <h2>Connect</h2>
-              <Row>
-                <div>
-                  <ul className="web-icons">
-                    <li>
-                      <a href="https://www.github.com/20wontons/">
-                        <img src="https://cdn-icons-png.flaticon.com/512/179/179323.png" alt="GitHub | 20wontons" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/antoine-b-nguyen/">
-                        <img src="https://cdn-icons-png.flaticon.com/512/4494/4494497.png" alt="LinkedIn | antoine-b-nguyen" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.instagram.com/20wontons/">
-                        <img src="https://cdn-icons-png.flaticon.com/512/4494/4494488.png" alt="Instagram | @20wontons" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://twitter.com/20wontons">
-                        <img src="https://cdn-icons-png.flaticon.com/512/4494/4494477.png" alt="Twitter | @20wontons" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://linktr.ee/20wontons">
-                        <img src="https://cdn.ymaws.com/www.alpfa.org/resource/resmgr/chapters/img/linktree.png" alt="LinkTree | 20wontons" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </Row>
-            </Col>
-          </Row>
-        </Container>
+      <div className="welcome-container">
+        <WelcomeCard />
       </div>
-      <div>
-        <NavBar />
-        <Projects />
-        <Music />
+      <div className="page-container">
+        <Navbar sticky="top" variant="dark" bg="dark" activeKey="#top">
+            <Container>
+                <Navbar.Brand href="#top">Antoine Nguyen</Navbar.Brand>
+                <Nav className="me-auto" variant="pills">
+                    <Nav.Link eventKey={0} href="#projects" onClick={()=>handTypeChange('projects')}>Projects</Nav.Link>
+                    <Nav.Link eventKey={1} href="#music" onClick={()=>handTypeChange('music')}>Music</Nav.Link>
+                </Nav>
+            </Container>
+        </Navbar>
+        {type==='projects' && <Projects />}
+        {type==='music' && <Music />}
       </div>
 
     </>

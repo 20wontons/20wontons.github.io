@@ -15,6 +15,7 @@ function Projects() {
                             <Card.Body>
                                 <Card.Title>anfootball</Card.Title>
                                 <Card.Text>
+                                    <i>Sep 2022 - Jun 2023</i> <br />
                                     A Discord bot that displays song tabs and chords
                                     using ultimate-guitar's repository of tabs.
                                     <br /><b>Coded in Python using Beautiful Soup and Interactions.py.</b>
@@ -46,6 +47,7 @@ function Projects() {
                             <Card.Body>
                                 <Card.Title>The New WebReg</Card.Title>
                                 <Card.Text>
+                                    <i>Feb 2023</i> <br />
                                     Worked on a team to redesign the UI of UCI's registration system in a hackathon.
                                     <br /><b>Coded in JavaScript using React Bootstrap.</b>
                                 </Card.Text>
@@ -64,6 +66,30 @@ function Projects() {
                                                 variant="success"
                                                 href="https://the-new-webreg-2d73f.web.app/"
                                             >Link</Button>
+                                        </Col>
+                                    </Row>
+                                </Container>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card className="mx-auto" style={{ width: "18rem" }}>
+                            <Card.Img variant="top" src="" style={{ height: "18rem" }}></Card.Img>
+                            <Card.Body>
+                                <Card.Title>FabFlix Website</Card.Title>
+                                <Card.Text>
+                                    <i>Apr - Jun 2023</i> <br />
+                                    Class project to develop a movie listing website.
+                                    <br /><b>Coded in HTML, CSS, JavaScript, Java, and MySQL using JQuery, AWS, and Google Cloud.</b>
+                                </Card.Text>
+                                <Container>
+                                    <Row className="align-items-center m-0">
+                                        <Col>
+                                            <Button
+                                                className="card-button"
+                                                variant="success"
+                                                href="https://www.youtube.com/playlist?list=PLb76RgHgmvLF7bsOsOFB9lPuj-jRpH4td"
+                                            >Demo</Button>
                                         </Col>
                                     </Row>
                                 </Container>
