@@ -96,6 +96,68 @@ function Projects() {
                             </Card.Body>
                         </Card>
                     </Col>
+                    <Col>
+                        <Card className="mx-auto" style={{ width: "18rem" }}>
+                            <Card.Img variant="top" src="" style={{ height: "18rem" }}></Card.Img>
+                            <Card.Body>
+                                <Card.Title>Around the World Radio</Card.Title>
+                                <Card.Text>
+                                    <i>October 2023 - March 2024</i> <br />
+                                    Senior design project to log radio signals and calculate directionality on a website.
+                                    <br /><b>Coded in HTML, CSS, JavaScript, MongoDB, Python, and R. Used the MERN stack and Leaflet. Hardware includes a RaspberryPi, SDR, and antenna.</b>
+                                </Card.Text>
+                                <Container>
+                                    <Row className="align-items-center m-0">
+                                        <Col>
+                                            <Button
+                                                className="card-button"
+                                                variant="secondary"
+                                                href="https://github.com/ggarcia453/AroundtheWorldRadio"
+                                            >Github</Button>
+                                        </Col>
+                                        <Col>
+                                            <Button
+                                                className="card-button"
+                                                variant="success"
+                                                href="https://ggarcia453.github.io/AroundtheWorldRadio/"
+                                            >Link</Button>
+                                        </Col>
+                                    </Row>
+                                </Container>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card className="mx-auto" style={{ width: "18rem" }}>
+                            <Card.Img variant="top" src="" style={{ height: "18rem" }}></Card.Img>
+                            <Card.Body>
+                                <Card.Title>Google Sheets Studio</Card.Title>
+                                <Card.Text>
+                                    <i>February - March 2024</i> <br />
+                                    Creating music in Google Sheets by reading spreadsheets as piano rolls and MIDI values.
+                                    <br /><b>Coded in Google App Scripts, HTML, JavaScript, and WebAudioAPI.</b>
+                                </Card.Text>
+                                <Container>
+                                    <Row className="align-items-center m-0">
+                                        <Col>
+                                            <Button
+                                                className="card-button"
+                                                variant="secondary"
+                                                href="https://github.com/20wontons/music147"
+                                            >Github</Button>
+                                        </Col>
+                                        <Col>
+                                            <Button
+                                                className="card-button"
+                                                variant="success"
+                                                href="https://20wontons.github.io/music147/"
+                                            >Link</Button>
+                                        </Col>
+                                    </Row>
+                                </Container>
+                            </Card.Body>
+                        </Card>
+                    </Col>
                 </Row>
                 <Row>
                     <h3 className="my-3">What I Use</h3>
