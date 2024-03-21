@@ -1,4 +1,5 @@
 import anfootball from "../assets/anfootball-icon.png"
+import GSheetsStudios from "../assets/GSheetsStudioIcon128.png"
 
 import { Button, Container, Row, Col, Card } from "react-bootstrap";
 
@@ -129,7 +130,7 @@ function Projects() {
                     </Col>
                     <Col>
                         <Card className="mx-auto" style={{ width: "18rem" }}>
-                            <Card.Img variant="top" src="" style={{ height: "18rem" }}></Card.Img>
+                            <Card.Img variant="top" src={GSheetsStudios} style={{ height: "18rem" }}></Card.Img>
                             <Card.Body>
                                 <Card.Title>Google Sheets Studio</Card.Title>
                                 <Card.Text>
@@ -146,12 +147,23 @@ function Projects() {
                                                 href="https://github.com/20wontons/music147"
                                             >Github</Button>
                                         </Col>
+                                    </Row>
+                                    <Row className="align-items-center m-0">
                                         <Col>
                                             <Button
                                                 className="card-button"
                                                 variant="success"
                                                 href="https://20wontons.github.io/music147/"
-                                            >Link</Button>
+                                            >Music 147</Button>
+                                        </Col>
+                                    </Row>
+                                    <Row className="align-items-center m-0">
+                                        <Col>
+                                            <Button
+                                                className="card-button"
+                                                variant="success"
+                                                href="https://workspace.google.com/marketplace/app/gsheets_studios/368428396914"
+                                            >Google Marketplace</Button>
                                         </Col>
                                     </Row>
                                 </Container>
